@@ -1,0 +1,110 @@
+.battery-container {
+  width: 100%;
+  max-width: 500px; /* Set the maximum width of the container */
+  margin: 0 auto; /* Center the container */
+  position: relative; /* Position the container relative to its parent element */
+}
+
+.battery-inner {
+  width: 100%; /* Make the inner battery element take up the full width of the container */
+  height: 50px; /* Set the height of the battery element */
+  background-color: #ccc; /* Set the background color of the battery element */
+  border-radius: 5px; /* Add some rounded corners to the battery element */
+  overflow: hidden; /* Hide any parts of the battery segments that extend beyond the battery element */
+}
+
+.battery-segment {
+  height: 100%; /* Make the battery segments take up the full height of the battery element */
+  position: absolute; /* Position the battery segments absolutely relative to the battery element */
+  background-color: #333; /* Set the background color of the battery segments */
+}
+
+.battery-segment-1 {
+  width: 90%; /* Set the width of the first battery segment */
+  left: 0; /* Position the first battery segment at the left edge of the battery element */
+}
+
+.battery-segment-2 {
+  width: 80%; /* Set the width of the second battery segment */
+  left: 10%; /* Position the second battery segment 10% from the left edge of the battery element */
+}
+
+.battery-segment-3 {
+  width: 60%; /* Set the width of the third battery segment */
+  left: 20%; /* Position the third battery segment 20% from the left edge of the battery element */
+}
+
+.battery-segment-4 {
+  width: 40%; /* Set the width of the fourth battery segment */
+  left: 30%; /* Position the fourth battery segment 30% from the left edge of the battery element */
+}
+
+.battery-segment-5 {
+  width: 20%; /* Set the width of the fifth battery segment */
+  left: 40%; /* Position the fifth battery segment 40% from the left edge of the battery element */
+}
+
+@media (min-width: 768px) {
+  .battery-inner {
+    height: 100px; /* Increase the height of the battery element on larger screens */
+  }
+
+  .battery-segment {
+    height: 100%; /* Make the battery segments take up the full height of the battery element */
+  }
+
+  .battery-segment-1 {
+    width: 95%; /* Increase the width of the first battery segment on larger screens */
+  }
+
+  .battery-segment-2 {
+    width: 85%; /* Increase the width of the second battery segment on larger screens */
+  }
+
+  .battery-segment-3 {
+    width: 70%; /* Increase the width of the third battery segment on larger screens */
+  }
+
+  .battery-segment-4 {
+    width: 55%; /* Increase the width of the fourth battery segment on larger screens */
+  }
+
+  .battery-segment-5 {
+    width: 40%; /* Increase the width of
+      ъъ]  */
+  }
+}
+.battery_1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.battery_item {
+  border: 5px solid #000;
+  width: 100%; /* Make the inner battery element take up the full width of the container */
+  height: 100%; /* Set the height of the battery element */
+  border-radius: 5px; /* Add some rounded corners to the battery element */
+  overflow: hidden;
+}
+.battery_item_right {
+  border: 5px solid #000;
+  width: 2%; /* Make the inner battery element take up the full width of the container */
+  height: 15px; /* Set the height of the battery element */
+  background-color: #000;
+}
+.battery_indicate {
+  background-color: red;
+  width: 30%;
+  height: 50px;
+}
+
+.battery_indicate2 {
+  background-color: yellow;
+  width: 65%;
+  height: 50px;
+}
+.battery_indicate3 {
+  background-color: green;
+  width: 100%;
+  height: 50px;
+}

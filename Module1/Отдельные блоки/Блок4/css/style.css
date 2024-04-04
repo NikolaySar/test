@@ -1,0 +1,19 @@
+.weather {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.weather_inner {
+  padding: 10px;
+  max-width: 400px;
+}
+.weather_number {
+  padding: 2px;
+  background-color: aqua;
+  color: #fff;
+}
+.icons {
+  min-height: 80px;
+  max-width: 80px;
+  margin: 20px 0 0;
+}
